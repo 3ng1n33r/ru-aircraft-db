@@ -20,6 +20,8 @@ This database contains information about civil aircraft registered in the Russia
 
 ## How to use
 
+Open the database with ```sqlite3 aircraft.db``` and run the query:
+
 ```
 sqlite> SELECT * FROM aircraftdb WHERE icao ='15065F';
 15065F|RA-67167|CL60|Bombardier Challenger 604|Private owner|-|2022-10-25 10:03:10
